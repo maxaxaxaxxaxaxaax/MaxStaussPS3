@@ -1,16 +1,14 @@
 @font-face {
-    font-family: 'Economica';
-    src: url('Economica-Bold.woff2') format('woff2'),
-        url('Economica-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+    font-family: 'IBMPlexMono';
+    src: url('IBMPlexMono-Medium.woff2') format('woff2'),
+        url('IBMPlexMono-Medium.woff') format('woff');
+
 }
 
 @font-face {
-    font-family: 'Economica';
-    src: url('Economica-Regular.woff2') format('woff2'),
-        url('Economica-Regular.woff') format('woff');
+    font-family: 'SourceCodePro';
+    src: url('SourceCodePro-VariableFont_wght.woff2') format('woff2'),
+        url('SourceCodePro-VariableFont_wght.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
