@@ -1,0 +1,8 @@
+{
+    "title": "Top-Level-Domain",
+    "folder": "TopLevelDomain",
+    "description": "Top-Level-Domains (TLDs) sind die höchste Ebene im Domainnamensystem (DNS) und werden am Ende einer Domain-Adresse verwendet, um das Land, die Organisation oder die Art der Website zu identifizieren.",
+    "tags": [".de", ".com",".info",".org"],
+    "author": "Max Stauss",
+    "github": "https://github.com/max-muster/ig3_prog3_lexikon"
+}

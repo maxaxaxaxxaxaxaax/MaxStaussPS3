@@ -1,0 +1,89 @@
+*{
+background-color:#f8f8ff;
+}
+#wrapper {
+    display: grid;
+    max-width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 300px 50px 200px 30px;
+    grid-template-areas:
+        "hdr1 hdr1 hdr hdr"
+        "yllw yllw yllw yllw"
+        "asd asd asd asd"
+        "orng orng orng aasd";
+        /* "ftr ftr ftr ftr"; */
+
+    gap: 10px;
+}
+
+header {
+    /* background-color: red; */
+    grid-area: hdr;
+    font-size: 30px;
+    font-family: 'Source Code Pro', monospace;
+        display: flex;
+    justify-content: space-between;
+}
+
+header1 {
+    /* background-color: rgb(0, 60, 255); */
+    grid-area: hdr1;
+    position: relative;
+
+}
+
+
+
+
+
+aside {
+    /* background-color: greenyellow; */
+    grid-area: asd;
+    font-size: 30px;
+    font-family: 'Source Code Pro', monospace;
+    display: flex;
+    justify-content: space-between;
+}
+
+#yellow {
+    /* background-color: yellow; */
+    grid-area: yllw;
+    font-family: 'IBM Plex Mono', monospace;
+     font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#orange {
+    /* background-color: orange; */
+    grid-area: orng;
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* #orange:hover ~ #yellow {
+    background-color: rgb(18, 237, 249);
+} */
+
+footer {
+    /* background-color: fuchsia; */
+    grid-area: ftr;
+}
+
+  #de{
+    color: #90A959;
+  }
+  #com{
+    color: #6494AA;
+  }
+  #org{
+    color: #FEA82F;
+  }
+  #info{
+    color: #9B5094;
+  }
+  #net{
+    color:#DC493A;
+  }
